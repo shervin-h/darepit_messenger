@@ -1,0 +1,16 @@
+abstract class WallpaperSelectionPickGalleryImageStatus {}
+
+class WallpaperSelectionPickGalleryImageInitialStatus extends WallpaperSelectionPickGalleryImageStatus {}
+
+class WallpaperSelectionPickGalleryImageLoadingStatus extends WallpaperSelectionPickGalleryImageStatus {}
+
+class WallpaperSelectionPickGalleryImageCompletedStatus extends WallpaperSelectionPickGalleryImageStatus {
+  final String encodedWallpaper;
+  final int selectedIndex;
+  WallpaperSelectionPickGalleryImageCompletedStatus(this.encodedWallpaper, this.selectedIndex);
+}
+
+class WallpaperSelectionPickGalleryImageErrorStatus extends WallpaperSelectionPickGalleryImageStatus {
+  final String errorMessage;
+  WallpaperSelectionPickGalleryImageErrorStatus(this.errorMessage);
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "340665086534",
+    "firebase_url": "https://flusher-164aa-default-rtdb.firebaseio.com",
+    "project_id": "flusher-164aa",
+    "storage_bucket": "flusher-164aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340665086534:android:8b0fe7b226b0cacc11d047",
+        "android_client_info": {
+          "package_name": "shervin.hassanzadeh.flusher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340665086534-llcvb5dhst3a55oh20t48baqf0mtu8i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFE_EgV9EROlVvOnpQmt6LRBXYI-92QeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340665086534-llcvb5dhst3a55oh20t48baqf0mtu8i2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "340665086534-dqaeai4llggtroot1hptshp7ld1cl1q4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "shervin.hasanzadeh.flusher"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
